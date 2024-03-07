@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-image: url(slike/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+h1{
+    text-align: center;
+    margin: center;
+    color:#ffff66;
+    text-shadow: 2px 2px 8px black;
+    font-weight: normal;
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+button{
+    width: 280px;
+    height: 60px;
+    background-color: #ffff99;
+    color:#33001a;
+    opacity: 75%;
+    border:none ;
+    font-size: 20px;
+}
+
+
+#dugmeAutor{
+    border-left:solid #33001a 1px;
+    border-right:solid #33001a 1px;
+}
+
+
+footer{
+    background-color: #33001a;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    color:#ffff99;
+}
+
+
+img{
+height: 300px;
+width: 280px;
+border:solid #ffff99;
+border-radius: 50%;
+margin-left: 5px;
+}
+
+
+#slike{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.trstr{
+    background-color: #33001a;
+    color: #ffff99;
+}
